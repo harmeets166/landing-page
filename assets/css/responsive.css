@@ -1,0 +1,22 @@
+/* Responsive CSS */
+@media(max-width: 1199px){
+  .nav.navbar-nav li a{
+    padding: 10px 15px;
+  }
+}
+@media(max-width: 991px){
+  .nav.navbar-nav{
+    display: none;
+  }
+  .our-partners-list ul{
+    flex-direction: column;
+  }
+  .our-partners-list ul li + li{
+    margin-top: 30px;
+  }
+  .service-features,
+  #who-we-are .content-wrapper,
+  .footer-widget-wrapper{
+    margin-bottom: 30px;
+  }
+}
